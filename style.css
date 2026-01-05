@@ -1,0 +1,304 @@
+.box{
+    width:100%;
+    height: 700px;;
+  border:1px solid gray;
+  background:url( turkey.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:cover;
+  border: 20px;
+
+}
+.rgb{
+  width:100%;
+  height:700px;
+  background:rgba(0,0,0, 0.5)
+    }
+  
+
+.first{
+    width:85%;
+  padding: 10px;
+  margin: auto;
+  justify-content: space-between;
+  display: flex;
+  align-items: right;
+  float: right;
+    }
+
+  .first ul li{
+  list-style:none;
+  display: inline-block;
+  margin: 0 20px;
+  }  
+  .first ul li a{
+  text-decoration:none;
+  color:#fff;
+  text-transform: uppercase;
+    }  
+  
+  .first ul li::after{
+    content: ''; 
+    height: 3px;
+    width: 0;
+    background: #D8D8D8;
+    position: absolute;
+    left: 0;
+    bottom:-10px;
+    transition: o.5s;
+    }
+
+    .first ul li::hover::after{
+       width:100% ;
+
+    }
+
+    .content{
+       width: 100%;
+       position: absolute;
+      top:50%;
+      transform: translateY(-50%);
+      text-align: center;
+      color:whitesmoke;
+    }
+
+    .content h4{
+      font-weight:100;
+      line-height: 25px;
+      position: absolute;
+    }
+
+   .content h3{
+      font-weight:100;
+      line-height: 25px;
+    }
+
+    .content h1{
+      font-size: 70px;
+      margin-top: 80px;
+    }
+
+    .button{
+       width: 600px;
+       padding:50px;
+       text-align: center;
+       margin: 20px 10px;
+       border-radius: 25px;
+       font-weight: bold;
+       border: 2px solid #D8D8D8;
+       background:transparent;
+       position: relative;
+       box-sizing: 200px;
+       text-decoration-color: #fff;
+
+    }
+
+/** 2nd section start*/
+   .box2{
+    width:100%;
+  
+   }
+    
+    .red{
+      background: url(pexels-熊大-旅遊趣-3389955.jpg);
+      background-repeat: no-repeat;
+      background-position:center;
+      background-size:cover;
+      border: 20px;
+      float: left;
+      width: 25%;
+      height:350px;
+      padding:70px;
+      margin-top: 70px;
+      border-radius: 15px;
+      margin-left: 150px;
+      position: absolute;
+    }
+    
+    .omor{
+      background:#fff;
+      background-repeat: no-repeat;
+      background-position:center;
+      background-size:cover;
+      border:20px;
+margin-left: 100px;
+      float: right;
+      height:350px; 
+      width:30%;
+      padding: 70px;
+      margin-right: 00px;
+      margin-top: 10px;
+      margin-bottom: 70px;
+      position: relative;
+
+    }
+    
+
+  /** 2nd section close*/
+
+
+
+/** 3rd section start*/
+.gallery{
+  width:100%;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 20%;
+  margin-left: 50px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height:190px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.click{
+  color: white;
+  text-align: left;
+  margin: 0px;
+}
+
+
+/** 3rd section close*/
+
+
+
+
+
+
+
+/**4th section start*/
+
+
+.footer{
+  width:100%;
+  height: 500px;;
+border:1px solid gray;
+background: url(pexels-oleksandr-p-3278215.jpg);
+background-repeat: no-repeat;
+background-position:center;
+background-size:cover;
+border: 20px;  
+margin-top: 880px;
+
+
+}
+.rgb2{
+  width:100%;
+  height:500px;
+  background:rgba(251, 249, 249, 0.4)
+    }
+
+    .write{
+      width: 100%;
+      
+     text-align: center;
+     color:#2D3250;
+   }
+
+   .write p{
+  color: black;
+   }
+/** 4th section start*/
+
+div.features{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 20%;
+  height:200px;
+  margin-left: 140px;
+}
+
+div.features:hover{
+  border: 1px solid #777;
+
+}
+
+div.fit {
+  padding: 15px;
+  text-align: center;
+}
+
+/** 4th section start*/
+
+
+
+
+/** 5th section start*/
+div.review{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 20%;
+  height:300px;
+  margin-left: 140px;
+  background-color:#2D3250;
+}
+div.review img{
+  width:22%;
+  height:55px;
+  background-size: cover;
+  background-position:center;
+  border-radius:140px;
+  margin-left: 120px;
+  margin-top:20px;
+  
+}
+
+
+
+div.review:hover{
+  border: 1px solid #777;
+
+}
+
+.style{
+  color: white;
+}
+
+/** 5th section close*/
+
+/** 6th section start*/
+
+.last2{
+  width:100%;
+  height:300px;
+  background-color:#2D3250;
+  margin-top: 50px;
+}
+
+
+div.last{  
+  margin: 5px;
+  float: left;
+  width: 15%;
+  height:300px;
+  background-color:#2D3250;
+  margin-left: 100px;
+
+}
+
+
+div.link {
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+.click5{
+  color: black;
+}
